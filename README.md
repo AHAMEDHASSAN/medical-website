@@ -1,8 +1,27 @@
-# React + Vite
+# 🏥 Medical Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+موقع طبي بسيط تم تطويره باستخدام React وVite وTailwind CSS.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit Website](https://ahamedhassan.github.io/medical-website/)
+
+## 📸 صور من الموقع
+
+> يحتوي الموقع على أقسام للخدمات، الأطباء، المدونة، ونموذج تواصل.
+
+## 🚀 التقنيات المستخدمة
+
+- React 18
+- Vite
+- Tailwind CSS
+- React Icons
+- React Slick (للسلايدر)
+- Font Awesome
+
+## 📦 التثبيت المحلي
+
+```bash
+npm install
+npm run dev
+```
