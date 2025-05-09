@@ -16,10 +16,16 @@ const Services = () => {
     <div className="min-h-screen flex flex-col justify-center lg:px-32 px-5 pt-24 lg:pt-16 bg-gray-100">
       <div className="flex flex-col items-center justify-between mb-12">
         <div>
-          <h1 className="text-4xl font-semibold text-center lg:text-center text-blue-600">
+          <h1
+            style={{ color: "#ff69b4	" }}
+            className="text-4xl font-semibold text-center lg:text-center text-blue-600"
+          >
             خدمات عُلا
           </h1>
-          <p className="mt-2 text-center lg:text-center text-gray-700">
+          <p
+            style={{ color: "rgb(54, 174, 154)" }}
+            className="mt-2 text-center lg:text-center text-gray-700"
+          >
             عُلا لا تقدم فقط الرعاية الصحية، بل تقدم أيضًا اهتمامًا وحنانًا لكل
             مريض. خدماتها تشمل:
           </p>

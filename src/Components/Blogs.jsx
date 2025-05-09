@@ -11,10 +11,16 @@ const Blogs = () => {
     <div className="min-h-screen flex flex-col justify-center lg:px-32 px-5 pt-24">
       <div className="flex flex-col items-center justify-between">
         <div>
-          <h1 className="text-4xl font-semibold text-center lg:text-center">
+          <h1
+            style={{ color: "#ff69b4	" }}
+            className="text-4xl font-semibold text-center lg:text-center"
+          >
             آخر التحديثات عن الممرضة عُلا
           </h1>
-          <p className="mt-2 text-center lg:text-right">
+          <p
+            className="mt-2 text-center lg:text-right"
+            style={{ color: "rgb(54, 174, 154)" }}
+          >
             عُلا دائمًا ما تبذل جهدها لتقديم أفضل رعاية صحية للمرضى، وفي هذه
             المنشورات نشارك معكم آخر مستجدات عملها والتحديثات المتعلقة بخدماتها
             الطبية. تابعونا للحصول على نصائح صحية ورعاية متميزة.

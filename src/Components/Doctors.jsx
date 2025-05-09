@@ -10,33 +10,33 @@ const Doctors = () => {
   const data = [
     {
       img: doc2,
-      name: "Dr. Julian Bennett",
+      name: "Nurse. Ols",
       specialties: "Cardiologist",
     },
 
     {
       img: doc2,
-      name: "Dr. Julian Bennett",
+      name: "Nurse. Ols",
       specialties: "Cardiologist",
     },
     {
       img: doc2,
-      name: "Dr. Julian Bennett",
+      name: "Nurse. Ols",
       specialties: "Cardiologist",
     },
     {
       img: doc2,
-      name: "Dr. Julian Bennett",
+      name: "Nurse. Ols",
       specialties: "Cardiologist",
     },
     {
       img: doc2,
-      name: "Dr. Julian Bennett",
+      name: "Nurse. Ols",
       specialties: "Cardiologist",
     },
     {
       img: doc2,
-      name: "Dr. Julian Bennett",
+      name: "Nurse. Ols",
       specialties: "Cardiologist",
     },
   ];
@@ -84,10 +84,16 @@ const Doctors = () => {
     <div className="min-h-screen flex flex-col justify-center lg:px-32 px-5 pt-16">
       <div className="flex flex-col items-center justify-between mb-10 lg:mb-0">
         <div>
-          <h1 className="text-5xl font-bold text-center lg:text-center mb-4">
-            الممرضة عُلا
+          <h1
+            className="text-5xl font-bold text-center lg:text-center mb-4"
+            style={{ color: "#ff69b4	" }}
+          >
+            Nurse Ola
           </h1>
-          <p className="text-xl text-center lg:text-center max-w-3xl mx-auto">
+          <p
+            className="text-xl text-center lg:text-center max-w-3xl mx-auto"
+            style={{ color: "rgb(54, 174, 154)" }}
+          >
             عُلا هي ممرضة متفانية في عملها، تتمتع بمهارات عالية في تقديم الرعاية
             الصحية. تسعى دائمًا لضمان راحة مرضاها وتقديم الدعم النفسي والمهني
             لهم. إليك بعض من الخدمات التي تقدمها:

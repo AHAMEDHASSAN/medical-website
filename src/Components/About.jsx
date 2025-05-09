@@ -6,11 +6,17 @@ const About = () => {
       <div className=" w-full lg:w-3/4 space-y-4">
         <h1
           className=" text-4xl font-semibold text-center lg:text-start"
-          style={{ direction: "rtl" }}
+          style={{ direction: "rtl", color: "#ff69b4	" }}
         >
-          🏥 عن عُلا
+          🏥 About Ola{" "}
         </h1>
-        <p className=" text-justify lg:text-start" style={{ fontSize: "25px" }}>
+        <p
+          className=" text-justify lg:text-start"
+          style={{
+            fontSize: "25px",
+            color: "rgb(54, 174, 154)",
+          }}
+        >
           عُلا، الممرضة التي تعمل بكل تفانٍ وحب، هي جزء لا يتجزأ من كل مكان تدخل
           فيه. لا تقتصر مهامها على تقديم الرعاية الصحية فحسب، بل تُضيف لمستها
           الإنسانية لكل مريض تمر بجواره. ابتسامتها تُخفف من الألم، ولمستها
