@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../Layouts/Button";
 
 const Contact = ({ closeForm }) => {

@@ -1,32 +1,27 @@
-import React from "react";
-import img from "../assets/img/about.jpg";
+import doc2 from "../assets/img/doc2.jpg";
 
 const About = () => {
   return (
     <div className=" min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
       <div className=" w-full lg:w-3/4 space-y-4">
-        <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
-        <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+        <h1
+          className=" text-4xl font-semibold text-center lg:text-start"
+          style={{ direction: "rtl" }}
+        >
+          🏥 عن عُلا
+        </h1>
+        <p className=" text-justify lg:text-start" style={{ fontSize: "25px" }}>
+          عُلا، الممرضة التي تعمل بكل تفانٍ وحب، هي جزء لا يتجزأ من كل مكان تدخل
+          فيه. لا تقتصر مهامها على تقديم الرعاية الصحية فحسب، بل تُضيف لمستها
+          الإنسانية لكل مريض تمر بجواره. ابتسامتها تُخفف من الألم، ولمستها
+          الرقيقة تمنح الأمل في أوقات الشدة. إن وجودها في هذه المهنة يُعتبر
+          أمانًا وراحة لكل من يمر بها، فهي لا تعرف فقط كيف تعالج الجسد، بل أيضًا
+          كيف تُطيب الروح. عُلا ليست مجرد ممرضة، هي ملاك يبعث الأمل في القلوب
+          ويُعيد الحياة لمن فقد الأمل.
         </p>
       </div>
       <div className=" w-full lg:w-3/4">
-        <img className=" rounded-lg" src={img} alt="img" />
+        <img className=" rounded-lg" src={doc2} alt="img" />
       </div>
     </div>
   );
